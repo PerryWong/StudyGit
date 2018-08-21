@@ -19,7 +19,7 @@ public class NoodlesServlet extends HttpServlet {
     	Logger log = LoggerFactory.getLogger(NoodlesServlet.class);
     	 
         log.info("------- Initializing ----------------------");
-    	
+	// get writer    	
     	PrintWriter writer = response.getWriter();
 
         String vegetable = request.getParameter("vegetable");
