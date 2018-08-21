@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0">
+    <display-name>Restaurant</display-name>
+    <servlet>
+        <servlet-name>noodles</servlet-name>
+        <servlet-class>
+            com.netease.NoodlesServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>noodles</servlet-name>
+        <url-pattern>/noodles</url-pattern>
+    </servlet-mapping>
+
+	<!-- <listener>  
+ 8      <listener-class>  
+ 9      	org.springframework.web.util.Log4jConfigListener  
+10      </listener-class>  
+11  </listener> -->
+</web-app>
